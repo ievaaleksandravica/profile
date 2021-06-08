@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Nanum+Gothic&display=swap');
+
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #233e8b;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1  {
+  color: #21094e;
+  font-size: 32px;
+}
+
+h2, h3 {
+  color: #344fa1;
+  font-size: 18px;
+}
+
+a   {
+  color: #1768ac;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03256c;
+  font-weight: bold;
+}
+
+.container  {
+  width: 500px;
+  margin: 18px auto;
+  padding: 18px;
+}
+
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 18px;
+  margin: 18px;
+  border-radius: 8px;
+}
+
+
+.rounded-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+.shadow {
+  box-shadow: 5px 5px 3px rgb(240,240,240) ;
+}
+
+.button-blue  {
+  background-color: #03256c;
+  color: white;
+  padding: 16px 24px;
+  line-height: 1;
+  border-radius: 8px;
+}
+
+.button-blue:hover  {
+  background-color: #21094e;
+}
+
+.margin-y {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+ul {
+  padding: 0;
+}
+
+.list-inline {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
